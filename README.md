@@ -1,24 +1,20 @@
 
 # Xylophone
+![Xylophone-app](Documentation/Xylophone.gif)
 
-## Our Goal
+##  Goal
 
-The goal of this tutorial is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation. The most important skill of a great programmer is being able to solve your own problems. We’ll do that by exploring StackOverflow, Apple Documentation and learning how to search for solutions effectively. By learning to use these tools, you’ll be able to start adding custom features to an app and get it to do what you want it to.
+The Xylophone app is a simple yet engaging application designed to allow users to play music on a virtual xylophone using their iOS device. Built using AVFoundation and Swift, the app offers a user-friendly interface with a set of virtual xylophone keys corresponding to different musical notes. Key features of the app include:
 
+## AVFoundation Integration 
+The Xylophone app leverages AVFoundation, Apple's framework for working with audio and video media, to produce high-quality sound output. AVFoundation is used to handle audio playback and generate the musical notes corresponding to each xylophone key.
 
-## What you will create
+## Virtual Xylophone Interface 
+The app presents users with a virtual xylophone interface, consisting of multiple colorful keys representing different musical notes. Users can tap on these keys to produce corresponding sounds, allowing them to play melodies and create music.
 
-You will be making your first musical instrument! Music apps are so popular on the App Store that they even get their own category. So in this module, we’re going to make a colourful XyloPhone app. Get it? Ok, the jokes are bad, but remember, I only wrote the good ones... 
+## Responsive User Interaction 
+The Xylophone app ensures a responsive and intuitive user experience by accurately detecting user interactions with the virtual xylophone keys. Each tap on a key triggers the playback of the corresponding musical note, allowing users to play melodies with ease.
 
-## What you will learn
+## Customizable Design 
+The app offers a customizable design, allowing developers to customize the appearance of the virtual xylophone keys, background, and other UI elements to suit their preferences or match a specific theme.
 
-* How to play sound using AVFoundation and AVAudioPlayer.
-* Understand Apple documentation and how to use StackOverflow.
-* Functions and methods in Swift. 
-* Data types.
-* Swift loops.
-* Variable scope.
-* The ViewController lifecycle.
-* Error handling in Swift.
-* Code refactoring.
-* Basic debugging.
